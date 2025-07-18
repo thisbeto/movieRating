@@ -1,4 +1,4 @@
-package com.movie_rating.demo;
+package com.movie_rating;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
