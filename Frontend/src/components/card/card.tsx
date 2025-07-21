@@ -6,12 +6,12 @@ interface CardProps {
     image: string;
 }
 
-export function Card({rating, title, image} : CardProps) {
+export function Card({rating, image, title} : CardProps) {
     return(
         <div className="card"> 
-            <img/>
-            <h2></h2>
-            <p><b>Nota:</b></p>
+            <img src={image}/>
+            <h2>{title}</h2>
+            <p><b>Nota:</b>{rating}</p>
         </div>
     )
 }
